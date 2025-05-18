@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.heading {
+    height: 5rem;
+    width: 100%;
+    background-color: black;
+
+}
+
+.heading h1 {
+    color: white;
+    line-height: 5rem;
+}
+
+.image img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-position: fixed;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.images img:hover {
+    border: 10px solid black;
+    opacity: 0.5;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+.msg-container p {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.btn-para {
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+    display: inline;
+    padding: 4px;
+}
